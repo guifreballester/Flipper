@@ -59,6 +59,7 @@ Thumbs.db
 *.wav
 *.m4a
 *.flac
+*.pdf
 # If you need to include specific media files, list them here explicitly
 
 # Documentation files
