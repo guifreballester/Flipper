@@ -1,3 +1,69 @@
+# Python related ignorances
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+celerybeat-schedule
+*.pot
+*.pyc
+pyenv.cfg
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # Environment variables and configuration files
 .env
 secrets/
+config.py
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Logs and data
+*.log
+*.csv
+*.json
+*.xml
+data/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Media files
+*.mp3
+*.wav
+*.m4a
+*.flac
+# If you need to include specific media files, list them here explicitly
+
+# Documentation files
+*.md
+!README.md
+
+# Directories that contain output or temporary files
+text_to_audio/temp_output/
